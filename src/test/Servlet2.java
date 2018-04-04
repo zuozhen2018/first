@@ -24,6 +24,13 @@ public class Servlet2 extends HttpServlet {
 		message = "Hello world, this message is from servlet!";
 	}
 
+	/**
+	 * test2
+	 * @param req
+	 * @param resp
+	 * @throws ServletException
+	 * @throws IOException
+	 */
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		//设置响应内容类型
