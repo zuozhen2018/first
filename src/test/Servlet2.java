@@ -16,7 +16,7 @@ public class Servlet2 extends HttpServlet {
 	private String message;
 
 	/**
-	 *
+	 *test
 	 * @throws ServletException
 	 */
 	@Override
